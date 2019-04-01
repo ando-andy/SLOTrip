@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0815182251FD62005E8286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815172251FD62005E8286 /* AppDelegate.swift */; };
+		3B08151A2251FD62005E8286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815192251FD62005E8286 /* ViewController.swift */; };
+		3B08151D2251FD62005E8286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B08151B2251FD62005E8286 /* Main.storyboard */; };
+		3B08151F2251FD64005E8286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B08151E2251FD64005E8286 /* Assets.xcassets */; };
+		3B0815222251FD64005E8286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0815202251FD64005E8286 /* LaunchScreen.storyboard */; };
+		3B08152D2251FD64005E8286 /* SLOTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08152C2251FD64005E8286 /* SLOTripTests.swift */; };
+		3B0815382251FD64005E8286 /* SLOTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815372251FD64005E8286 /* SLOTripUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0815292251FD64005E8286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B08150C2251FD62005E8286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0815132251FD62005E8286;
+			remoteInfo = SLOTrip;
+		};
+		3B0815342251FD64005E8286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B08150C2251FD62005E8286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0815132251FD62005E8286;
+			remoteInfo = SLOTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0815142251FD62005E8286 /* SLOTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLOTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0815172251FD62005E8286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B0815192251FD62005E8286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B08151C2251FD62005E8286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B08151E2251FD64005E8286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B0815212251FD64005E8286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B0815232251FD64005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0815282251FD64005E8286 /* SLOTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B08152C2251FD64005E8286 /* SLOTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOTripTests.swift; sourceTree = "<group>"; };
+		3B08152E2251FD64005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0815332251FD64005E8286 /* SLOTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0815372251FD64005E8286 /* SLOTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOTripUITests.swift; sourceTree = "<group>"; };
+		3B0815392251FD65005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0815112251FD62005E8286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0815252251FD64005E8286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0815302251FD64005E8286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B08150B2251FD62005E8286 = {
+			isa = PBXGroup;
+			children = (
+				3B0815162251FD62005E8286 /* SLOTrip */,
+				3B08152B2251FD64005E8286 /* SLOTripTests */,
+				3B0815362251FD64005E8286 /* SLOTripUITests */,
+				3B0815152251FD62005E8286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0815152251FD62005E8286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0815142251FD62005E8286 /* SLOTrip.app */,
+				3B0815282251FD64005E8286 /* SLOTripTests.xctest */,
+				3B0815332251FD64005E8286 /* SLOTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0815162251FD62005E8286 /* SLOTrip */ = {
+			isa = PBXGroup;
+			children = (
+				3B0815172251FD62005E8286 /* AppDelegate.swift */,
+				3B0815192251FD62005E8286 /* ViewController.swift */,
+				3B08151B2251FD62005E8286 /* Main.storyboard */,
+				3B08151E2251FD64005E8286 /* Assets.xcassets */,
+				3B0815202251FD64005E8286 /* LaunchScreen.storyboard */,
+				3B0815232251FD64005E8286 /* Info.plist */,
+			);
+			path = SLOTrip;
+			sourceTree = "<group>";
+		};
+		3B08152B2251FD64005E8286 /* SLOTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B08152C2251FD64005E8286 /* SLOTripTests.swift */,
+				3B08152E2251FD64005E8286 /* Info.plist */,
+			);
+			path = SLOTripTests;
+			sourceTree = "<group>";
+		};
+		3B0815362251FD64005E8286 /* SLOTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0815372251FD64005E8286 /* SLOTripUITests.swift */,
+				3B0815392251FD65005E8286 /* Info.plist */,
+			);
+			path = SLOTripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0815132251FD62005E8286 /* SLOTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B08153C2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTrip" */;
+			buildPhases = (
+				3B0815102251FD62005E8286 /* Sources */,
+				3B0815112251FD62005E8286 /* Frameworks */,
+				3B0815122251FD62005E8286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLOTrip;
+			productName = SLOTrip;
+			productReference = 3B0815142251FD62005E8286 /* SLOTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B0815272251FD64005E8286 /* SLOTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B08153F2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripTests" */;
+			buildPhases = (
+				3B0815242251FD64005E8286 /* Sources */,
+				3B0815252251FD64005E8286 /* Frameworks */,
+				3B0815262251FD64005E8286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B08152A2251FD64005E8286 /* PBXTargetDependency */,
+			);
+			name = SLOTripTests;
+			productName = SLOTripTests;
+			productReference = 3B0815282251FD64005E8286 /* SLOTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B0815322251FD64005E8286 /* SLOTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0815422251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripUITests" */;
+			buildPhases = (
+				3B08152F2251FD64005E8286 /* Sources */,
+				3B0815302251FD64005E8286 /* Frameworks */,
+				3B0815312251FD64005E8286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0815352251FD64005E8286 /* PBXTargetDependency */,
+			);
+			name = SLOTripUITests;
+			productName = SLOTripUITests;
+			productReference = 3B0815332251FD64005E8286 /* SLOTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B08150C2251FD62005E8286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kazando;
+				TargetAttributes = {
+					3B0815132251FD62005E8286 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3B0815272251FD64005E8286 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3B0815132251FD62005E8286;
+					};
+					3B0815322251FD64005E8286 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3B0815132251FD62005E8286;
+					};
+				};
+			};
+			buildConfigurationList = 3B08150F2251FD62005E8286 /* Build configuration list for PBXProject "SLOTrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B08150B2251FD62005E8286;
+			productRefGroup = 3B0815152251FD62005E8286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0815132251FD62005E8286 /* SLOTrip */,
+				3B0815272251FD64005E8286 /* SLOTripTests */,
+				3B0815322251FD64005E8286 /* SLOTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0815122251FD62005E8286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0815222251FD64005E8286 /* LaunchScreen.storyboard in Resources */,
+				3B08151F2251FD64005E8286 /* Assets.xcassets in Resources */,
+				3B08151D2251FD62005E8286 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0815262251FD64005E8286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0815312251FD64005E8286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0815102251FD62005E8286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08151A2251FD62005E8286 /* ViewController.swift in Sources */,
+				3B0815182251FD62005E8286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0815242251FD64005E8286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08152D2251FD64005E8286 /* SLOTripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B08152F2251FD64005E8286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0815382251FD64005E8286 /* SLOTripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B08152A2251FD64005E8286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0815132251FD62005E8286 /* SLOTrip */;
+			targetProxy = 3B0815292251FD64005E8286 /* PBXContainerItemProxy */;
+		};
+		3B0815352251FD64005E8286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0815132251FD62005E8286 /* SLOTrip */;
+			targetProxy = 3B0815342251FD64005E8286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B08151B2251FD62005E8286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B08151C2251FD62005E8286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B0815202251FD64005E8286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0815212251FD64005E8286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B08153A2251FD65005E8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B08153B2251FD65005E8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B08153D2251FD65005E8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B08153E2251FD65005E8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B0815402251FD65005E8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLOTrip.app/SLOTrip";
+			};
+			name = Debug;
+		};
+		3B0815412251FD65005E8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLOTrip.app/SLOTrip";
+			};
+			name = Release;
+		};
+		3B0815432251FD65005E8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLOTrip;
+			};
+			name = Debug;
+		};
+		3B0815442251FD65005E8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SLOTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazando.SLOTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLOTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B08150F2251FD62005E8286 /* Build configuration list for PBXProject "SLOTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B08153A2251FD65005E8286 /* Debug */,
+				3B08153B2251FD65005E8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B08153C2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B08153D2251FD65005E8286 /* Debug */,
+				3B08153E2251FD65005E8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B08153F2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0815402251FD65005E8286 /* Debug */,
+				3B0815412251FD65005E8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0815422251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0815432251FD65005E8286 /* Debug */,
+				3B0815442251FD65005E8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B08150C2251FD62005E8286 /* Project object */;
+}
