@@ -47,8 +47,12 @@ class MainViewController: UIViewController {
     
     @objc func pushedOnemore(sender: UIButton){
         print("button pushed.")
-        self.stopButton.isHidden = false
-        Drum()
+        if self.stopButton.isHidden {
+            self.stopButton.isHidden = false
+            Drum()
+        } else {
+            self.stopButton.isHidden = false
+        }
     }
 }
 
@@ -94,32 +98,13 @@ extension MainViewController {
 extension MainViewController {
     // スロットの処理
     private func Drum() {
-        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (timer) in
+        Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true) { (timer) in
             if !self.stopButton.isHidden {
                 self.slotLabel.text = self.keywords[Int(arc4random()) % self.keywords.count]
             } else {
                 timer.invalidate()
+                let key = self.keywords
             }
         }
     }
 }
-//extension ViewController: UITextFieldDelegate {
-//    //リターン操作
-//    func textFieldShouldReturn(_ tf: UITextField) -> Bool {
-//        tf.resignFirstResponder()
-//        return true
-//    }
-//    //キーボード以外をタップしたらキーボードを閉じる
-//    override func touchesBegan(_ touched: Set<UITouch>, with event: UIEvent?) {
-//        if self.emailTextField.isFirstResponder {
-//            self.emailTextField.resignFirstResponder()
-//        }
-//        if self.passwordTextField.isFirstResponder {
-//            self.passwordTextField.resignFirstResponder()
-//        }
-//    }
-//
-//
-//
-//}
-

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4E472FBC50C465E6EAF79970D4F043 /* Pods-SLOTripTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA9513357F4DF88C54D61243C19096B /* Pods-SLOTripTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D416D8C86079F6CD1E4E8A7FECC3A45 /* Pods-SLOTrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC05C9AAD28CBE889AE8F3A7749DFF9 /* Pods-SLOTrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C79645F8A3259949140F7AE1CF0936C /* Pods-SLOTripUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26819E064BE6674E38003DB0C28AA471 /* Pods-SLOTripUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A75C2C7469C681C9A2957B8F71799C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C263A806504CDBBC1A195B9AC658317C /* Pods-SLOTrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B049E235F29CED6F3F73D08AFA67FD13 /* Pods-SLOTrip-dummy.m */; };
+		D7529BE77411B016A2ECB1CE7838C4E0 /* Pods-SLOTripTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD28FE8F92E3C4857DE04C9074A4024B /* Pods-SLOTripTests-dummy.m */; };
+		DA1B3F07B37990DA27741B64A6180539 /* Pods-SLOTripUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 587F0060F47629C20E9F707C51CAB425 /* Pods-SLOTripUITests-dummy.m */; };
+		F4303BB59533B4C6D84924C8A3D594BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC014A3F287EC1FA4439B03719B9ED83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190DDDF2B85F355B6A40F6BD3C237A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709F27788328018C268148070E9C8D0E;
+			remoteInfo = "Pods-SLOTrip";
+		};
+		85C08A6991CA1C4566F222F24EFEA8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709F27788328018C268148070E9C8D0E;
+			remoteInfo = "Pods-SLOTrip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A487D6C5FD7A3C52B1837ED05CB5FC6 /* Pods-SLOTripTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOTripTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A5B2510F795817092A1B1CADC841682 /* Pods-SLOTripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTripTests.release.xcconfig"; sourceTree = "<group>"; };
+		2263C5917AA51658312312501EB3E26C /* Pods-SLOTrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOTrip-acknowledgements.plist"; sourceTree = "<group>"; };
+		236A070B432C9D4C14BF32FD65FACDF8 /* Pods-SLOTripUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTripUITests-frameworks.sh"; sourceTree = "<group>"; };
+		26819E064BE6674E38003DB0C28AA471 /* Pods-SLOTripUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOTripUITests-umbrella.h"; sourceTree = "<group>"; };
+		2C314C904CFFC89AF2270AAF6FF74AD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE83D7014FF77EBE9DEDA58A2EF4174 /* Pods-SLOTripUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTripUITests-resources.sh"; sourceTree = "<group>"; };
+		2FA353E1DEEE3E3DC84D5BF24143134D /* Pods-SLOTripUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOTripUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49F275692328D11DFB6F82BE0197DC9C /* Pods-SLOTripTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTripTests-resources.sh"; sourceTree = "<group>"; };
+		587F0060F47629C20E9F707C51CAB425 /* Pods-SLOTripUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLOTripUITests-dummy.m"; sourceTree = "<group>"; };
+		5C48CA886CA93709D52A95550D92E8D5 /* Pods-SLOTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTrip.release.xcconfig"; sourceTree = "<group>"; };
+		5DF28E62CA27D9CEE905206A9A87A7CD /* Pods-SLOTrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTrip-frameworks.sh"; sourceTree = "<group>"; };
+		60F6EEF30577055CA33F41C6016F7CC1 /* Pods-SLOTripTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOTripTests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70F5A04DEC94C37BBB4979AB8F49AAFA /* Pods-SLOTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		808018DC7771BF2C0A9C1A43C07D25F6 /* Pods_SLOTripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLOTripUITests.framework; path = "Pods-SLOTripUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		829156E5C88B5AEBB443F6C3767059A0 /* Pods-SLOTripTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOTripTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84F55754E4F57799D846AACDB8220B88 /* Pods-SLOTripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTripUITests.release.xcconfig"; sourceTree = "<group>"; };
+		854603D43F2F85D01FB3336F93B28EC1 /* Pods-SLOTrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTrip-resources.sh"; sourceTree = "<group>"; };
+		888BB4FAB4E1440C41EF83604A722D6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A07D7A8759282BA7C84C17175117BCE /* Pods-SLOTripTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOTripTests-frameworks.sh"; sourceTree = "<group>"; };
+		AAC05C9AAD28CBE889AE8F3A7749DFF9 /* Pods-SLOTrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOTrip-umbrella.h"; sourceTree = "<group>"; };
+		B049E235F29CED6F3F73D08AFA67FD13 /* Pods-SLOTrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLOTrip-dummy.m"; sourceTree = "<group>"; };
+		BD9D4EABEFBF9B357876BED455DFA926 /* Pods_SLOTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLOTrip.framework; path = "Pods-SLOTrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1264A873567EEB2EB9014B199ECF0CB /* Pods-SLOTripUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOTripUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD28FE8F92E3C4857DE04C9074A4024B /* Pods-SLOTripTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLOTripTests-dummy.m"; sourceTree = "<group>"; };
+		D07D824146797B0F12E4F3F174C4DD2C /* Pods-SLOTrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOTrip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3848C616E3D72A00741DE4E09630ED3 /* Pods-SLOTripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C69260D80BC817C4BA6A8DFB35FBF4 /* Pods-SLOTrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOTrip.modulemap"; sourceTree = "<group>"; };
+		F687200981504DE913B82098E292D6EB /* Pods_SLOTripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLOTripTests.framework; path = "Pods-SLOTripTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75D896445DBA4B206667F597F573C9E /* Pods-SLOTripUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOTripUITests.modulemap"; sourceTree = "<group>"; };
+		FABE801B495AF88E5E9A09C6EE2B24EC /* Pods-SLOTripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOTripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA9513357F4DF88C54D61243C19096B /* Pods-SLOTripTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOTripTests-umbrella.h"; sourceTree = "<group>"; };
+		FF90F3A54D8E3CA6BD8CA977A7D15FF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3516CF0A0FF1829E023CAD334867CAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A75C2C7469C681C9A2957B8F71799C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D191399861E9CCE23151131127C27154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4303BB59533B4C6D84924C8A3D594BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2512E7DBA8692C615ECF6F43193B458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC014A3F287EC1FA4439B03719B9ED83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350A73C3F7CD522E83F44C820C346622 /* Pods-SLOTrip */ = {
+			isa = PBXGroup;
+			children = (
+				2C314C904CFFC89AF2270AAF6FF74AD5 /* Info.plist */,
+				F0C69260D80BC817C4BA6A8DFB35FBF4 /* Pods-SLOTrip.modulemap */,
+				D07D824146797B0F12E4F3F174C4DD2C /* Pods-SLOTrip-acknowledgements.markdown */,
+				2263C5917AA51658312312501EB3E26C /* Pods-SLOTrip-acknowledgements.plist */,
+				B049E235F29CED6F3F73D08AFA67FD13 /* Pods-SLOTrip-dummy.m */,
+				5DF28E62CA27D9CEE905206A9A87A7CD /* Pods-SLOTrip-frameworks.sh */,
+				854603D43F2F85D01FB3336F93B28EC1 /* Pods-SLOTrip-resources.sh */,
+				AAC05C9AAD28CBE889AE8F3A7749DFF9 /* Pods-SLOTrip-umbrella.h */,
+				70F5A04DEC94C37BBB4979AB8F49AAFA /* Pods-SLOTrip.debug.xcconfig */,
+				5C48CA886CA93709D52A95550D92E8D5 /* Pods-SLOTrip.release.xcconfig */,
+			);
+			name = "Pods-SLOTrip";
+			path = "Target Support Files/Pods-SLOTrip";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F3504959EC523A419AC1DD1C89E5F29A /* Products */,
+				A1578AF2B8BAC41C354F9583FE2A2FCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87D70DA74AB5799EAD1AF68612F99A37 /* Pods-SLOTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				888BB4FAB4E1440C41EF83604A722D6A /* Info.plist */,
+				F75D896445DBA4B206667F597F573C9E /* Pods-SLOTripUITests.modulemap */,
+				2FA353E1DEEE3E3DC84D5BF24143134D /* Pods-SLOTripUITests-acknowledgements.markdown */,
+				C1264A873567EEB2EB9014B199ECF0CB /* Pods-SLOTripUITests-acknowledgements.plist */,
+				587F0060F47629C20E9F707C51CAB425 /* Pods-SLOTripUITests-dummy.m */,
+				236A070B432C9D4C14BF32FD65FACDF8 /* Pods-SLOTripUITests-frameworks.sh */,
+				2CE83D7014FF77EBE9DEDA58A2EF4174 /* Pods-SLOTripUITests-resources.sh */,
+				26819E064BE6674E38003DB0C28AA471 /* Pods-SLOTripUITests-umbrella.h */,
+				D3848C616E3D72A00741DE4E09630ED3 /* Pods-SLOTripUITests.debug.xcconfig */,
+				84F55754E4F57799D846AACDB8220B88 /* Pods-SLOTripUITests.release.xcconfig */,
+			);
+			name = "Pods-SLOTripUITests";
+			path = "Target Support Files/Pods-SLOTripUITests";
+			sourceTree = "<group>";
+		};
+		A1578AF2B8BAC41C354F9583FE2A2FCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				350A73C3F7CD522E83F44C820C346622 /* Pods-SLOTrip */,
+				EDF0548742F2590615C2B5EE014D451A /* Pods-SLOTripTests */,
+				87D70DA74AB5799EAD1AF68612F99A37 /* Pods-SLOTripUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDF0548742F2590615C2B5EE014D451A /* Pods-SLOTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF90F3A54D8E3CA6BD8CA977A7D15FF0 /* Info.plist */,
+				60F6EEF30577055CA33F41C6016F7CC1 /* Pods-SLOTripTests.modulemap */,
+				829156E5C88B5AEBB443F6C3767059A0 /* Pods-SLOTripTests-acknowledgements.markdown */,
+				1A487D6C5FD7A3C52B1837ED05CB5FC6 /* Pods-SLOTripTests-acknowledgements.plist */,
+				CD28FE8F92E3C4857DE04C9074A4024B /* Pods-SLOTripTests-dummy.m */,
+				9A07D7A8759282BA7C84C17175117BCE /* Pods-SLOTripTests-frameworks.sh */,
+				49F275692328D11DFB6F82BE0197DC9C /* Pods-SLOTripTests-resources.sh */,
+				FDA9513357F4DF88C54D61243C19096B /* Pods-SLOTripTests-umbrella.h */,
+				FABE801B495AF88E5E9A09C6EE2B24EC /* Pods-SLOTripTests.debug.xcconfig */,
+				1A5B2510F795817092A1B1CADC841682 /* Pods-SLOTripTests.release.xcconfig */,
+			);
+			name = "Pods-SLOTripTests";
+			path = "Target Support Files/Pods-SLOTripTests";
+			sourceTree = "<group>";
+		};
+		F3504959EC523A419AC1DD1C89E5F29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9D4EABEFBF9B357876BED455DFA926 /* Pods_SLOTrip.framework */,
+				F687200981504DE913B82098E292D6EB /* Pods_SLOTripTests.framework */,
+				808018DC7771BF2C0A9C1A43C07D25F6 /* Pods_SLOTripUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AB48E74F91BC4944B9594A79CF7F339 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D416D8C86079F6CD1E4E8A7FECC3A45 /* Pods-SLOTrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EF5E2250A2CC2899A144E30B848A31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E472FBC50C465E6EAF79970D4F043 /* Pods-SLOTripTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D988A9C3471A98E05F0BAF259D43291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C79645F8A3259949140F7AE1CF0936C /* Pods-SLOTripUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10607C40E1DB69B9CD8A6F66F5793B7D /* Pods-SLOTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA80CBA385BD7C70F2FFD6CED685B9D /* Build configuration list for PBXNativeTarget "Pods-SLOTripUITests" */;
+			buildPhases = (
+				940A774281B312930E5F4777014EAB00 /* Sources */,
+				D2512E7DBA8692C615ECF6F43193B458 /* Frameworks */,
+				9D988A9C3471A98E05F0BAF259D43291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93517C924F47638100B48C9ADD006FB /* PBXTargetDependency */,
+			);
+			name = "Pods-SLOTripUITests";
+			productName = "Pods-SLOTripUITests";
+			productReference = 808018DC7771BF2C0A9C1A43C07D25F6 /* Pods_SLOTripUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		709F27788328018C268148070E9C8D0E /* Pods-SLOTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDEC9F48A6705D959CC73DAD33B8C7F /* Build configuration list for PBXNativeTarget "Pods-SLOTrip" */;
+			buildPhases = (
+				DDB5192E05A59FEDF94AEF3DC57FF745 /* Sources */,
+				3516CF0A0FF1829E023CAD334867CAD4 /* Frameworks */,
+				0AB48E74F91BC4944B9594A79CF7F339 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SLOTrip";
+			productName = "Pods-SLOTrip";
+			productReference = BD9D4EABEFBF9B357876BED455DFA926 /* Pods_SLOTrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D38FABA2931D4621AA2575924CBDB9E0 /* Pods-SLOTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE070810DB2B4BB2B708F2240878D17 /* Build configuration list for PBXNativeTarget "Pods-SLOTripTests" */;
+			buildPhases = (
+				6C6FCFA20FA695D542E8DCCBB97A3BEE /* Sources */,
+				D191399861E9CCE23151131127C27154 /* Frameworks */,
+				86EF5E2250A2CC2899A144E30B848A31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65815CE81BA9FDEA0FCFBEE0FE2DA61C /* PBXTargetDependency */,
+			);
+			name = "Pods-SLOTripTests";
+			productName = "Pods-SLOTripTests";
+			productReference = F687200981504DE913B82098E292D6EB /* Pods_SLOTripTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F3504959EC523A419AC1DD1C89E5F29A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709F27788328018C268148070E9C8D0E /* Pods-SLOTrip */,
+				D38FABA2931D4621AA2575924CBDB9E0 /* Pods-SLOTripTests */,
+				10607C40E1DB69B9CD8A6F66F5793B7D /* Pods-SLOTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6FCFA20FA695D542E8DCCBB97A3BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7529BE77411B016A2ECB1CE7838C4E0 /* Pods-SLOTripTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A774281B312930E5F4777014EAB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B3F07B37990DA27741B64A6180539 /* Pods-SLOTripUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB5192E05A59FEDF94AEF3DC57FF745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C263A806504CDBBC1A195B9AC658317C /* Pods-SLOTrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65815CE81BA9FDEA0FCFBEE0FE2DA61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLOTrip";
+			target = 709F27788328018C268148070E9C8D0E /* Pods-SLOTrip */;
+			targetProxy = 85C08A6991CA1C4566F222F24EFEA8B5 /* PBXContainerItemProxy */;
+		};
+		F93517C924F47638100B48C9ADD006FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLOTrip";
+			target = 709F27788328018C268148070E9C8D0E /* Pods-SLOTrip */;
+			targetProxy = 190DDDF2B85F355B6A40F6BD3C237A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3AD5CC281103C69B950AE996DC1637F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5B2510F795817092A1B1CADC841682 /* Pods-SLOTripTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTripTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTripTests/Pods-SLOTripTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43F2EEE6F577B211A956FDD9172D79FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABE801B495AF88E5E9A09C6EE2B24EC /* Pods-SLOTripTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTripTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTripTests/Pods-SLOTripTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63EF7D20BAC8D0C329CC5DDB9A3713DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F5A04DEC94C37BBB4979AB8F49AAFA /* Pods-SLOTrip.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTrip/Pods-SLOTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68FFEAC85385A79BA441B0C0B5D1B4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C48CA886CA93709D52A95550D92E8D5 /* Pods-SLOTrip.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTrip/Pods-SLOTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		738DB86E18D63C42CBBC550FA92FDD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3848C616E3D72A00741DE4E09630ED3 /* Pods-SLOTripUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTripUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTripUITests/Pods-SLOTripUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BE297990DD6A9BF13E97F6C905ABEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F55754E4F57799D846AACDB8220B88 /* Pods-SLOTripUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLOTripUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLOTripUITests/Pods-SLOTripUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDEC9F48A6705D959CC73DAD33B8C7F /* Build configuration list for PBXNativeTarget "Pods-SLOTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63EF7D20BAC8D0C329CC5DDB9A3713DE /* Debug */,
+				68FFEAC85385A79BA441B0C0B5D1B4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE070810DB2B4BB2B708F2240878D17 /* Build configuration list for PBXNativeTarget "Pods-SLOTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F2EEE6F577B211A956FDD9172D79FF /* Debug */,
+				3AD5CC281103C69B950AE996DC1637F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA80CBA385BD7C70F2FFD6CED685B9D /* Build configuration list for PBXNativeTarget "Pods-SLOTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738DB86E18D63C42CBBC550FA92FDD4A /* Debug */,
+				8BE297990DD6A9BF13E97F6C905ABEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

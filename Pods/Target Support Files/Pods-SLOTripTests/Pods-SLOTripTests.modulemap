@@ -1,0 +1,6 @@
+framework module Pods_SLOTripTests {
+  umbrella header "Pods-SLOTripTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

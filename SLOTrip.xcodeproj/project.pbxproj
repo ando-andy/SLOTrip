@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3B0815182251FD62005E8286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815172251FD62005E8286 /* AppDelegate.swift */; };
-		3B08151A2251FD62005E8286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815192251FD62005E8286 /* ViewController.swift */; };
-		3B08151D2251FD62005E8286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B08151B2251FD62005E8286 /* Main.storyboard */; };
+		3B08151A2251FD62005E8286 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815192251FD62005E8286 /* MainViewController.swift */; };
 		3B08151F2251FD64005E8286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B08151E2251FD64005E8286 /* Assets.xcassets */; };
 		3B0815222251FD64005E8286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0815202251FD64005E8286 /* LaunchScreen.storyboard */; };
-		3B08152D2251FD64005E8286 /* SLOTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08152C2251FD64005E8286 /* SLOTripTests.swift */; };
-		3B0815382251FD64005E8286 /* SLOTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815372251FD64005E8286 /* SLOTripUITests.swift */; };
+		3B08154D225209A1005E8286 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08154C225209A1005E8286 /* Util.swift */; };
+		3B08154F225209D2005E8286 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B08154E225209D2005E8286 /* Const.swift */; };
+		3B94F3932252F9E5000974BB /* ButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94F3922252F9E5000974BB /* ButtonUtil.swift */; };
+		644D52346B7809DC1BBDD3C8 /* Pods_SLOTripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CE837CEB4F0001AD1C9DC5 /* Pods_SLOTripTests.framework */; };
+		E43E1D314F2D44C039645DB5 /* Pods_SLOTripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDECC657096866AC040903B /* Pods_SLOTripUITests.framework */; };
+		F122C5612F4E5B2CDD43463A /* Pods_SLOTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9492B5DA1EC5CC29E6BC5D /* Pods_SLOTrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FDECC657096866AC040903B /* Pods_SLOTripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOTripUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0815142251FD62005E8286 /* SLOTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLOTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0815172251FD62005E8286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B0815192251FD62005E8286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B08151C2251FD62005E8286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B0815192251FD62005E8286 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3B08151E2251FD64005E8286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0815212251FD64005E8286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B0815232251FD64005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B0815282251FD64005E8286 /* SLOTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B08152C2251FD64005E8286 /* SLOTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOTripTests.swift; sourceTree = "<group>"; };
-		3B08152E2251FD64005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B0815332251FD64005E8286 /* SLOTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0815372251FD64005E8286 /* SLOTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOTripUITests.swift; sourceTree = "<group>"; };
-		3B0815392251FD65005E8286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0815462252011F005E8286 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = SLOTrip/Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		3B08154822520137005E8286 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = SLOTrip/Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		3B08154A2252014C005E8286 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = SLOTrip/Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		3B08154C225209A1005E8286 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		3B08154E225209D2005E8286 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		3B94F3922252F9E5000974BB /* ButtonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUtil.swift; sourceTree = "<group>"; };
+		41CE837CEB4F0001AD1C9DC5 /* Pods_SLOTripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOTripTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56251C54FD2FEB80525F4DEE /* Pods-SLOTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTrip/Pods-SLOTrip.release.xcconfig"; sourceTree = "<group>"; };
+		5A7BE490323B5155CDB4E0E2 /* Pods-SLOTripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTripTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTripTests/Pods-SLOTripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BFA3E1CAF0FF8BF6AE2CC7F /* Pods-SLOTripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTripUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTripUITests/Pods-SLOTripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9492B5DA1EC5CC29E6BC5D /* Pods_SLOTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833994EA4C179EDD3ED96F5E /* Pods-SLOTripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTripTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTripTests/Pods-SLOTripTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD2D9DF5585ADC8C8121E7C4 /* Pods-SLOTripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTripUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTripUITests/Pods-SLOTripUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF6F305697F0BA36B391122E /* Pods-SLOTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLOTrip/Pods-SLOTrip.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F122C5612F4E5B2CDD43463A /* Pods_SLOTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644D52346B7809DC1BBDD3C8 /* Pods_SLOTripTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +83,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43E1D314F2D44C039645DB5 /* Pods_SLOTripUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D73F4D70289AF772F5F4518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F305697F0BA36B391122E /* Pods-SLOTrip.debug.xcconfig */,
+				56251C54FD2FEB80525F4DEE /* Pods-SLOTrip.release.xcconfig */,
+				5A7BE490323B5155CDB4E0E2 /* Pods-SLOTripTests.debug.xcconfig */,
+				833994EA4C179EDD3ED96F5E /* Pods-SLOTripTests.release.xcconfig */,
+				5BFA3E1CAF0FF8BF6AE2CC7F /* Pods-SLOTripUITests.debug.xcconfig */,
+				BD2D9DF5585ADC8C8121E7C4 /* Pods-SLOTripUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3B08150B2251FD62005E8286 = {
 			isa = PBXGroup;
 			children = (
 				3B0815162251FD62005E8286 /* SLOTrip */,
-				3B08152B2251FD64005E8286 /* SLOTripTests */,
-				3B0815362251FD64005E8286 /* SLOTripUITests */,
 				3B0815152251FD62005E8286 /* Products */,
+				3B0815452252011F005E8286 /* Frameworks */,
+				1D73F4D70289AF772F5F4518 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,31 +127,28 @@
 			isa = PBXGroup;
 			children = (
 				3B0815172251FD62005E8286 /* AppDelegate.swift */,
-				3B0815192251FD62005E8286 /* ViewController.swift */,
-				3B08151B2251FD62005E8286 /* Main.storyboard */,
+				3B0815192251FD62005E8286 /* MainViewController.swift */,
 				3B08151E2251FD64005E8286 /* Assets.xcassets */,
 				3B0815202251FD64005E8286 /* LaunchScreen.storyboard */,
 				3B0815232251FD64005E8286 /* Info.plist */,
+				3B08154C225209A1005E8286 /* Util.swift */,
+				3B08154E225209D2005E8286 /* Const.swift */,
+				3B94F3922252F9E5000974BB /* ButtonUtil.swift */,
 			);
 			path = SLOTrip;
 			sourceTree = "<group>";
 		};
-		3B08152B2251FD64005E8286 /* SLOTripTests */ = {
+		3B0815452252011F005E8286 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B08152C2251FD64005E8286 /* SLOTripTests.swift */,
-				3B08152E2251FD64005E8286 /* Info.plist */,
+				3B08154A2252014C005E8286 /* Result.framework */,
+				3B08154822520137005E8286 /* Kingfisher.framework */,
+				3B0815462252011F005E8286 /* APIKit.framework */,
+				6F9492B5DA1EC5CC29E6BC5D /* Pods_SLOTrip.framework */,
+				41CE837CEB4F0001AD1C9DC5 /* Pods_SLOTripTests.framework */,
+				2FDECC657096866AC040903B /* Pods_SLOTripUITests.framework */,
 			);
-			path = SLOTripTests;
-			sourceTree = "<group>";
-		};
-		3B0815362251FD64005E8286 /* SLOTripUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3B0815372251FD64005E8286 /* SLOTripUITests.swift */,
-				3B0815392251FD65005E8286 /* Info.plist */,
-			);
-			path = SLOTripUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B08153C2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTrip" */;
 			buildPhases = (
+				C3542E8B872569E0C66E4AFA /* [CP] Check Pods Manifest.lock */,
 				3B0815102251FD62005E8286 /* Sources */,
 				3B0815112251FD62005E8286 /* Frameworks */,
 				3B0815122251FD62005E8286 /* Resources */,
@@ -149,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B08153F2251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripTests" */;
 			buildPhases = (
+				1ECC7181B0ECC09687C6BE28 /* [CP] Check Pods Manifest.lock */,
 				3B0815242251FD64005E8286 /* Sources */,
 				3B0815252251FD64005E8286 /* Frameworks */,
 				3B0815262251FD64005E8286 /* Resources */,
@@ -167,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B0815422251FD65005E8286 /* Build configuration list for PBXNativeTarget "SLOTripUITests" */;
 			buildPhases = (
+				CE42263F0E4553CEAC749B1B /* [CP] Check Pods Manifest.lock */,
 				3B08152F2251FD64005E8286 /* Sources */,
 				3B0815302251FD64005E8286 /* Frameworks */,
 				3B0815312251FD64005E8286 /* Resources */,
@@ -231,7 +260,6 @@
 			files = (
 				3B0815222251FD64005E8286 /* LaunchScreen.storyboard in Resources */,
 				3B08151F2251FD64005E8286 /* Assets.xcassets in Resources */,
-				3B08151D2251FD62005E8286 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +279,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ECC7181B0ECC09687C6BE28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLOTripTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3542E8B872569E0C66E4AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLOTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE42263F0E4553CEAC749B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLOTripUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B0815102251FD62005E8286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B08151A2251FD62005E8286 /* ViewController.swift in Sources */,
+				3B08151A2251FD62005E8286 /* MainViewController.swift in Sources */,
+				3B08154F225209D2005E8286 /* Const.swift in Sources */,
+				3B08154D225209A1005E8286 /* Util.swift in Sources */,
 				3B0815182251FD62005E8286 /* AppDelegate.swift in Sources */,
+				3B94F3932252F9E5000974BB /* ButtonUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B08152D2251FD64005E8286 /* SLOTripTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +360,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0815382251FD64005E8286 /* SLOTripUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B08151B2251FD62005E8286 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B08151C2251FD62005E8286 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B0815202251FD64005E8286 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,9 +508,14 @@
 		};
 		3B08153D2251FD65005E8286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6F305697F0BA36B391122E /* Pods-SLOTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLOTrip/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SLOTrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +530,14 @@
 		};
 		3B08153E2251FD65005E8286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56251C54FD2FEB80525F4DEE /* Pods-SLOTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLOTrip/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SLOTrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +552,7 @@
 		};
 		3B0815402251FD65005E8286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7BE490323B5155CDB4E0E2 /* Pods-SLOTripTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +573,7 @@
 		};
 		3B0815412251FD65005E8286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833994EA4C179EDD3ED96F5E /* Pods-SLOTripTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +594,7 @@
 		};
 		3B0815432251FD65005E8286 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFA3E1CAF0FF8BF6AE2CC7F /* Pods-SLOTripUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +614,7 @@
 		};
 		3B0815442251FD65005E8286 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2D9DF5585ADC8C8121E7C4 /* Pods-SLOTripUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
